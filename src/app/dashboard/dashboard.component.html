@@ -1,0 +1,28 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+
+    <mat-card class="box">
+      <mat-card-header>
+        <mat-card-title>Welcome {{username}}</mat-card-title>
+        <br>
+      </mat-card-header>
+  
+      <form class="example-form">
+        <mat-card-content>
+          <mat-form-field class="example-full-width">
+            <button mat-fab color="primary" aria-label="Start" (click)="startLocation($event)">
+                <mat-icon>fast_forward</mat-icon>
+              </button>
+              <button mat-fab color="primary" aria-label="Stop" >
+                <mat-icon>pause</mat-icon>
+              </button>
+          </mat-form-field>
+        </mat-card-content>
+
+        <h6>Latitude = {{latitude}}</h6>
+        <h6>Longitude = {{longitude}}</h6>
+        <h6>Accuracy = {{accuracy}}</h6>
+       
+      </form>
+    </mat-card>
+  
+  </div>
