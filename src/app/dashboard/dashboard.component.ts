@@ -16,7 +16,7 @@ export class DashboardComponent implements OnInit {
   private socket: any;
 
   constructor() { 
-    this.socket = io('https://fierce-shore-47373.herokuapp.com/');
+    this.socket = io('http://localhost:3000');
     
   }
 
