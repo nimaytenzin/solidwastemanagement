@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { SocketComponent } from './socket/socket.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SocketComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
